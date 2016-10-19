@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="background">#FF2196F3</color>
+    <color name="text_color">#FFE3F2FD</color>
+    <color name="gameTitle">#FFE4F1FE</color>
+    <color name="grid_paint">#FF64B5F6</color>
+    
+
+</resources>

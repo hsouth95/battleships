@@ -1,0 +1,83 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/choice_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_title"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/player_spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_prompt1"
+            android:spinnerMode="dialog"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/separator"
+            android:textColor="@color/text_color"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/input_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:hint="@string/edit_text_prompt"
+            android:textColorHint="@color/text_color" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Spinner
+            android:id="@+id/player_spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_prompt1"
+            android:spinnerMode="dialog"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/separator"
+            android:textColor="@color/text_color"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/input_label2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:hint="@string/edit_text_prompt"
+            android:textColorHint="@color/text_color" />
+
+        <Button
+            android:id="@+id/submit_choice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/player_choose_button" />
+    </LinearLayout>
+</ScrollView>

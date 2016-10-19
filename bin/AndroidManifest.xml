@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.bournemouth.i7244619.Activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/BattleshipTheme" >
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:noHistory="true" >
+        </activity>
+
+
+        <service android:name="uk.ac.bournemouth.i7244619.Sound.BackgroundSoundService" />
+
+        <activity
+            android:name=".QuickGameActivity"
+            android:label="@string/title_activity_game"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".CreateTwoPlayerGameActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:noHistory="true"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".TwoPlayerGameActivity"
+            android:label="@string/title_activity_two_player_game"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".OnePlayerChooseActivity"
+            android:label="@string/title_activity_choose_login" >
+        </activity>
+        <activity
+            android:name=".TwoPlayerChooseActivity"
+            android:label="@string/title_activity_two_player_choose" >
+        </activity>
+        <activity
+            android:name=".ComputerGameActivity"
+            android:label="@string/title_activity_computer_game"
+            android:noHistory="true" >
+        </activity>
+
+        <activity android:name=".HiscoreActivity" >
+        </activity>
+        <activity
+            android:name=".QuickscoreActivity"
+            android:label="@string/title_activity_quickscore" >
+        </activity>
+        <activity
+            android:name=".CreateOnePlayerGameActivity"
+            android:label="@string/title_activity_create_one_player_game"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

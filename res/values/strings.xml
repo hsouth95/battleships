@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battleships</string>
+    <string name="quick_game_button">Quick Game</string>
+    <string name="play_friend_button">Play Against A Friend</string>
+    <string name="app_title">Battleships</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="main_menu_button">Go Home</string>
+    <string name="player1">Player 1</string>
+    <string name="title_activity_two_player_game">TwoPlayerGameActivity</string>
+    <string name="title_activity_choose_login">ChooseLoginActivity</string>
+    <string name="spinner_prompt1">Choose player 1</string>
+    <string name="choice_title">Which player are you?</string>
+    <string name="edit_text_prompt">Enter a new Player</string>
+    <string name="player_choose_button">Go!</string>
+    <string name="separator">OR</string>
+    <string name="title_activity_two_player_choose">TwoPlayerChooseActivity</string>
+    <string name="title_activity_computer_game">ComputerGameActivity</string>
+    <string name="hiscore_title">Hiscores</string>
+    <string name="nav_hiscores">Hiscores</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="nav_quickscores">Quick Match Scores</string>
+    <string name="title_activity_quickscore">QuickscoreActivity</string>
+    <string name="play_computer_game">Play Against A Computer</string>
+    <string name="title_activity_create_one_player_game">CreateOnePlayerGameActivity</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uk.ac.bournemouth.i7244619.Activities.ResultActivity" >
+    
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center_horizontal"
+    
+    android:textSize="56sp"
+    android:textStyle="bold"
+    android:textColor="@color/text_color"/>
+
+
+    <Button
+                android:id="@+id/dummy_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/ButtonBattleshipTheme"
+                android:layout_gravity="center_vertical"
+                android:text="@string/main_menu_button"
+                android:onClick="goMainMenu" />
+
+
+</LinearLayout>
